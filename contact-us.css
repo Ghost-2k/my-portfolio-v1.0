@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@200;300;400;500;600;700;800;900&display=swap");
+.header {
+  background-color: black;
+}
+.contact-us-area {
+  background-color: #f4f5f8;
+  padding-bottom: 100px;
+  
+}
+.contact-us-area  h1{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+margin: 0 !important;
+padding: 50px 0 1px;
+
+
+}
+.contact-forum {
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+  background-color: transparent;
+  width: 600px;
+margin: 0 auto;
+margin-top: 0;
+  padding:  0 40px;
+  border-radius: 5px;
+}
+
+.first-last {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 10px -6px;
+}
+.f-name {
+  margin-right: 10px;
+  margin-left: -5px;
+  
+}
+.l-name {
+  margin-left: 10px;
+}
+.f-name,
+.l-name {
+  border: 1px solid #d9d9d9;
+  flex-grow: 1;
+   font-size: 18px;
+box-shadow: 5px 5px 10px  rgb(235, 234, 234), -5px -5px 10px rgb(235, 234, 234);
+  padding: 20px;
+  border-radius: 5px;
+}
+.email-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.email,
+.subject {
+  border: 1px solid #d9d9d9;
+  width: 94.4%;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 18px;
+  color: black !important;
+  box-shadow: 5px 5px 10px  rgb(235, 234, 234), -5px -5px 10px rgb(235, 234, 234);
+}
+ button {
+  padding: 4px 16px;
+ box-shadow: 2px 2px 5px  rgb(189, 187, 187), -2px -2px 5px rgb(189, 187, 187);
+  width: 200px;
+  height: 52px;
+  margin: 10px auto;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: inherit;
+  font-weight: bold;
+  font-family: sari;
+  background-color: #1773b0;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition effect */
+
+}
+button:hover {
+  background-color: #125f8a; /* Change background color on hover */
+}
+.subject {
+  height: 170px;
+
+}
+textarea,
+input:focus {
+  outline-color: #1773b0 !important;
+  resize: none;
+}
+
+::placeholder {
+  color: #6f7780; /* Placeholder text color */
+  font-size: 17px; /* Placeholder text font size */
+  font-weight: 400; /* Placeholder text font weight */
+ /* Adjust padding to match other input fields */
+  line-height: 1; /* Adjust padding to match other input fields */
+}

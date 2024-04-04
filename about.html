@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> AMINE JABRI</title>
+    <link rel="icon" type="img" href="assests/home.png">
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="about-us-stylesheets.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+      <div class="header">
+        <div class="logo">amine jabri</div>
+         <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="flx">
+        <div class="about-us-page-content">
+          <div>
+            <h1>about us</h1>
+            <p class="about-txt">
+              Welcome to my world of Front End Development! I'm deeply
+              passionate about creating captivating digital experiences that
+              leave a lasting impression. With expertise in design and
+              proficiency in the latest web technologies, I specialize in
+              crafting seamless interfaces and engaging interactions. From
+              responsive websites to immersive web applications, I am committed
+              to pushing boundaries while ensuring accessibility and performance
+              are never compromised. Join me in turning ideas into reality and
+              delivering experiences that resonate with users long after they've
+              interacted with them.
+            </p>
+          </div>
+          <div class="about-img-container">
+            <img src="assests/coder.jpg" alt="Coder Image" />
+          </div>
+        </div>
+
+        <div class="footer">
+          <p class="f-logo">amine jabri</p>
+          <p class="f-text">
+            Explore our exceptional services and products. Our goal: exceeding
+            expectations, creating memorable experiences. Follow us on social
+            media for news, promotions, and events. Contact us for support via
+            email or phone.
+          </p>
+
+          <div class="social">
+            <a href="https://www.facebook.com/YourPage" target="_blank">
+              <i class="fab fa-facebook-f social-icon"></i>
+            </a>
+            <a href="https://www.instagram.com/YourPage" target="_blank">
+              <i class="fab fa-instagram social-icon"></i>
+            </a>
+            <a href="https://twitter.com/YourPage" target="_blank">
+              <i class="fab fa-twitter social-icon"></i>
+            </a>
+            <a href="https://github.com/YourUsername" target="_blank">
+              <i class="fab fa-github social-icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/YourProfile" target="_blank">
+              <i class="fab fa-linkedin-in social-icon"></i>
+            </a>
+          </div>
+          <div class="scfooter">
+            <div class="copyright">Copyright 2024</div>
+            <div class="design">Designed By ghost</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 0) {
+          $(".header").addClass("black");
+        } else {
+          $(".header").removeClass("black");
+        }
+      });
+    </script>
+  </body>
+</html>

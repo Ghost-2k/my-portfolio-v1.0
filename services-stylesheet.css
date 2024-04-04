@@ -1,0 +1,65 @@
+.header {
+  background-color: #000;
+}
+.services-list {
+  width: 100%;
+  background-color: #f2f5f7;
+  padding: 1px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+
+}
+.services-list h1 {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-transform: capitalize;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 40px;
+  padding: 40px;
+  letter-spacing: -0.03em;
+}
+.services-list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.services-list ul li {
+  list-style: none;
+  background-color: white;
+  width: 350px;
+  height: 320px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+ transition: 0.5s ease;
+box-shadow: 5px 5px 10px  rgb(235, 234, 234), -5px -5px 10px rgb(235, 234, 234);
+
+}
+.services-list ul li i {
+  font-size: 38px;
+  color: #3498db;
+  margin-bottom: 20px;
+}
+.services-list ul li h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.services-list ul li p {
+  text-align: center;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.5;
+}
+.services-list ul li:hover{
+transform: translatey(-20px);
+}
